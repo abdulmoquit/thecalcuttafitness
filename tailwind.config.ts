@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        gym: {
+          red: "hsl(var(--gym-red))",
+          "red-light": "hsl(var(--gym-red-light))",
+          dark: "hsl(var(--gym-dark))",
+          "dark-card": "hsl(var(--gym-dark-card))",
+          "dark-lighter": "hsl(var(--gym-dark-lighter))",
+        },
+      },
+      fontFamily: {
+        heading: ['Oswald', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
